@@ -80,3 +80,26 @@ hr {
   text-decoration: none;
   color: #562eff;
 }
+/*---------------------------
+    latest courses style 
+---------------------------*/
+.courses .course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-title {
+  font-size: 20px;
+}
+.course-info {
+  display: flex;
+  /* justify-content: center; */
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
