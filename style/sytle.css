@@ -83,6 +83,11 @@ hr {
 /*---------------------------
     latest courses style 
 ---------------------------*/
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 53px;
+}
 .courses .course-banner img {
   width: 224px;
   height: 104px;
@@ -92,7 +97,8 @@ hr {
 }
 .course-info {
   display: flex;
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
 }
 .fa-star {
   font-size: 12px;
@@ -102,4 +108,11 @@ hr {
 }
 .fa-star.empty {
   color: #aeaeae;
+}
+.course-duration {
+  background-color: #ffe4e8;
+  color: #ff4a60;
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 3px 10px 3px 10px;
 }
